@@ -1,0 +1,20 @@
+Respuestas BETA:
+a) ¿Cómo queda el master después de estos cambios?
+   
+main queda con los cambios de la rama de GAMMA (datos.txt más CPUGamma/CPUAlfa/CPUBeta) luego del merge. Tras el merge final de Armenio, main también contiene beta.txt con las datos de BETA, GAMMA y ALFA.
+
+b) ¿Beta pudo ver todos los cambios que se realizaron?
+ 
+Sí, siempre y cuando BETA haya hecho compare&pull request para traer las ramas remotas y haga el marge para actualizar el repositorio
+
+c) ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
+
+compare&pull request  
+
+Create Pull Request
+
+Merge pull request
+
+Confirm merge
+
+
