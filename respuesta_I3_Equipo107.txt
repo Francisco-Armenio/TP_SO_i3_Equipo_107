@@ -31,7 +31,7 @@ f) ¿Qué debió hacer GAMMA en el punto 7 para poder hacer lo pedido?
    git checkout BETA-ARMENIO
 
 2) Modificar beta.txt:
-   ipconfig >> beta.txt
+   ipconfig > beta.txt
    echo "GAMMA: Ciro Agustín Acuña" >> beta.txt
    echo "Hora: hora" >> beta.txt
 
@@ -39,7 +39,24 @@ f) ¿Qué debió hacer GAMMA en el punto 7 para poder hacer lo pedido?
    git add .
    git commit -m "GAMMA: agrego mis datos a beta.txt"
 
-5) Subir definitivamente:
+5) Subir:
    git push
 
+g) ¿Qué debió hacer ALFA en el punto 8 para poder hacer lo pedido?
 
+1) Obtener la rama actualizada de BETA:
+   git fetch origin
+   git checkout BETA-ARMENIO
+ 
+
+2) Modificar beta.txt:
+   ipconfig >> beta.txt
+   echo "ALFA: SANTIAGO BERDIA" >> beta.txt
+   echo "Hora: la hora que era" >> beta.txt
+
+3) Subir los cambios:
+   git add .
+   git commit -m "ALFA: agrego mis datos a beta.txt"
+
+5) Subir:
+   git push 
